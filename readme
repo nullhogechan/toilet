@@ -1,0 +1,4 @@
+##### 起動メモ ######
+1.memoフォルダの上から２行をコピペしてシェルで実行
+2.webフォルダに移動し、python cgi_server.pyを実行
+3.ブラウザにてhttp://ラズパイのIP/cgi-bin/homepage.pyを検索。
