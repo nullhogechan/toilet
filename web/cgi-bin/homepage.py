@@ -11,24 +11,25 @@ html_body="""
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.c
 ss">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme
+.min.css">
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           <div style = "text-align:center">
-          <h1 style="background-color:#000080" class="text-center" id="iot"><font color="#F8F8FF">Intelligence Business Solutions</font></h1>
-          <h1 style="background-color:#000080"class="text-center" id="hello"><font color="#F8F8FF">Internet Of Toilet!!</font></h1>
-<form action="use.py" >
-<span style="text-align: left"><input type="submit" value="1番扉使用状況" /></span>
-<span style="text-align: center"><input type="submit" value="2番扉使用状況" /></span>
-<span style="text-align: center"><input type="submit" value="3番扉使用状況" /></span>
-<span style="text-align: right"><input type="submit" value="4番扉使用状況" /></span>
-</form>
-<div style="position:absolute; top:170px; left:410px;"><img src="../toilet.jpg">
-            </div>
-          </div>
+            <h1 style="background-color:#000080" class="text-center" id="iot"><font color="#F8F8
+FF">Intelligence Business Solutions</font></h1>
+            <h1 style="background-color:#000080"class="text-center" id="hello"><font color="#F8F
+8FF">Internet Of Toilet!!</font></h1>
+    <form action="use.py" >
+    <span style="text-align: center"><input type="submit" value="1番扉使用状況" /></span
+>
+    <span style="text-align: center"><input type="submit" value="2番扉使用状況" /></span
+>
+    </form>
+    <img src="../toilet.jpg" style="width:auto;height:300px;" />
         </div>
       </div>
     </div>
@@ -36,4 +37,3 @@ ss">
 </html>"""
 
 print html_body
-
